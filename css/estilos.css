@@ -59,4 +59,30 @@ body
     padding: 0.5em;
 }
 
+h1 {
+    color: cyan;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 2cm;
+    font-style: initial;
+  }
+  
+  p {
+      color: black;
+      background-color: aquamarine;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1cm;
+      font-style: italic;
+  }
+  
+  .p1 {
+      color: aquamarine;
+      background-color: black;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: smaller;
+      font-style: oblique;
+  }
+  
+  @keyframes mover{
+      0%{
+          transform: translate(100%);
 
